@@ -1,0 +1,34 @@
+ git init
+  522  git add .
+  523  git commit -m "[Deep]Added: First Commit HelloJava File Added "
+  524  git remote add origin https://github.com/DipeshMaywade/GitPractice.git
+  525  git push origin master
+  526  git checkout -b Branch1
+  528  git checkout master
+  537  git pull origin master
+  539  git diff
+  544  git add .
+  545  git commit -m "[Deep]Modify: update From local"
+  549  git push origin master
+  550  git status
+  551  git commit -m "[Deep]Refactor: Resolve The Conflict "
+  552  git merge
+  553  git add .
+  554  git commit -m "[Deep]Refactor: Resolve The Conflict "
+  555  git commit -m "[Deep]Modify: update From local"
+  556  git push origin master
+  557  git checkout Branch1
+  561* git merge
+  563  git add .
+  564  git commit -m "[Deep]Update: File HelloJava Update"
+  565  git checkout master
+  566  git checkout Branch1
+  567  git push origin Branch1
+  568  git checkout master
+  569  git merge Branch1
+  570  git status
+  571  git push origin master
+  572  git branch
+  573  git status
+  575  git history
+  577  history | grep git
